@@ -208,6 +208,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
 /* Header Section */
 .intro {
 	display: table;
@@ -272,6 +273,62 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+
+/* FIRST SECTION */
+/*#first {
+	padding: 100px 0;
+}*/
+
+
+#first {
+	padding: 100px 0 0 0;
+	background: url("../img/phone-background.jpg") center top no-repeat fixed;
+	background-size: cover;
+	position: relative;
+}
+
+#competition h4 {
+	margin: 5px 0;
+}
+
+#first::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.92);
+	z-index: 9;
+}
+
+#first .container {
+	position: relative;
+	z-index: 10;
+}
+
+#first .cta-btn {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 28px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin-top: 10px;
+	border: 2px solid #fff;
+	color: #fff;
+	background:linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
+
+#first .cta-btn:hover {
+	background:white;
+	border: 2px solid #5ca9fb;
+	color: #5ca9fb;
+}
+
 
 /* PHONE */
 
@@ -538,7 +595,11 @@ header .intro-text {
 /* Team Section */
 #team {
 	padding: 100px 0;
+
 }
+
+
+
 #team p{
 	padding: 5px;
 }
