@@ -91,6 +91,7 @@ hr {
 	margin-bottom: 20px;
 	border: 0;
 }
+
 /* Navigation */
 #menu {
 	padding: 15px;
@@ -275,11 +276,6 @@ header .intro-text {
 }
 
 /* FIRST SECTION */
-/*#first {
-	padding: 100px 0;
-}*/
-
-
 #first {
 	padding: 100px 0 0 0;
 	background: url("../img/phone-background.jpg") center top no-repeat fixed;
@@ -287,9 +283,6 @@ header .intro-text {
 	position: relative;
 }
 
-#competition h4 {
-	margin: 5px 0;
-}
 
 #first::before {
 	content: '';
@@ -298,7 +291,7 @@ header .intro-text {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(255, 255, 255, 0.92);
+	background: rgba(255, 255, 255, 0.88);
 	z-index: 9;
 }
 
@@ -355,7 +348,9 @@ header .intro-text {
 	font-size:16px;
 }
 
-/* About Section */
+
+/* ABOUT SECTION  */
+
 #about {
 	padding: 100px 0;
 }
@@ -511,6 +506,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
+	background: #f6f6f6;
 }
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
@@ -1020,4 +1016,56 @@ H1 {font-weight: 900;}
 		float: none;
 		padding: 0 0 30px 0;
 	}
+}
+
+/*TRACTION SECTION */
+
+#traction {
+	padding: 100px 0;
+}
+
+/* NEXT STEPS SECTION */
+
+#next {
+	padding: 100px 0;
+	background: url("../img/nextSteps.jpg") center top no-repeat fixed;
+	background-size: cover;
+	position: relative;
+}
+
+#next::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.90);
+	z-index: 9;
+}
+
+#next .container {
+	position: relative;
+	z-index: 10;
+}
+
+#next .cta-btn {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 28px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin-top: 10px;
+	color: #fff;
+	background:linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
+
+#next .cta-btn:hover {
+	background:white;
+	border: 2px solid #5ca9fb;
+	color: #5ca9fb;
 }
