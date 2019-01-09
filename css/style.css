@@ -948,13 +948,13 @@ H1 {font-weight: 900;}
 }
 
 @media (max-width: 768px) {
-	#interviews .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+	#interviews .advanced-feature-img-right, #interviews .advanced-feature-img-left {
 		max-width: 50%;
 	}
 }
 
 @media (max-width: 767px) {
-	#interviews   .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+	#interviews   .advanced-feature-img-right, #interviews .advanced-feature-img-left {
 		max-width: 100%;
 		float: none;
 		padding: 0 0 30px 0;

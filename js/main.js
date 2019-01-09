@@ -40,7 +40,7 @@ function main() {
         });
 		
 }());
-
-
+// Initiate the wowjs animation library
+    new WOW().init();
 }
 main();
