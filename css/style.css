@@ -878,3 +878,85 @@ H1 {font-weight: 900;}
 	padding: 0.5em;
 	font-size: 1em;
 }
+
+/* INTERVIEWS SECTION */
+
+#interviews {
+	padding: 100px 0;
+	overflow: hidden;
+
+
+}
+
+/* Product Advanced Featuress Section
+--------------------------------*/
+/*#advanced-features {
+	overflow: hidden;
+
+}*/
+
+#interviews .features-row {
+	padding: 20px 0 10px 0;
+}
+/*
+#interviews h2 {
+	font-size: 26px;
+	font-weight: 700;
+	color: #000;
+}*/
+#interviews h3 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: italic;
+	color: #999;
+}
+
+#interviews p {
+	line-height: 24px;
+	color: #777;
+	margin-bottom: 30px;
+}
+
+#interviews i {
+	color: #666666;
+	font-size: 64px;
+	transition: 0.5s;
+	float: left;
+	padding: 0 15px 0px 0;
+	line-height: 1;
+}
+
+#interviews i:before {
+	background: #1dc8cd;
+	background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#interviews .advanced-feature-img-right {
+	max-width: 100%;
+	float: right;
+	padding: 0 0 20px 30px;
+}
+
+#interviews .advanced-feature-img-left {
+	max-width: 100%;
+	float: left;
+	padding: 0 30px 30px 0;
+}
+
+@media (max-width: 768px) {
+	#interviews .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	#interviews   .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+		max-width: 100%;
+		float: none;
+		padding: 0 0 30px 0;
+	}
+}
